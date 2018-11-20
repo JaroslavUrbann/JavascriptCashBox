@@ -1,0 +1,37 @@
+html {
+    margin: 0px;
+    font-family: sans-serif;
+    color: black;
+}
+.body {
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    height: 100vh;
+}
+
+.body.bg {
+    background-image: url("/images/todo.jpeg");
+    background-size: cover;
+}
+
+.navtop {
+    padding: 1.5rem 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    text-align: center;
+    box-shadow: 0 10px 6px -1px #777;
+}
+#addToDoValue {
+    flex-basis: 70%;
+}
+h1 {
+  color: white;
+  margin: 0;
+}
+h2 {
+  margin-left: 10px;
+  display: inline-block;
+}
